@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegí tu planta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+<header>
+<h1>Elegí tu planta</h1>
+<h2>Elegí un lugar y nosotros te decimos que planta poner</h2>
+
+<nav>   
+<a href="index.html">Inicio</a>
+<a href="nosotros.html">Nosotros</a>
+<a href="contacto.html">Contacto</a>
+
+</nav>
+</header>
+<main>
+
+<p class="arriba">¿Querés darle más vida a un espacio?, ¿querés decorarlo?, ¿querés sentirte más agusto?
+Contesta nuestras preguntas y nosotros te decimos que planta se adapta a tu lugar.</p>
+
+<p>Elegí si tu planta es de interior o exterior</p>
+
+<select class="planta">
+
+<option class="interior">Interior</option>
+<option class="exterior">Exterior</option>
+
+<div>
+</select>
+
+<p>Elegí que cantidad de luz hay en el lugar donde vas a poner tu planta - Si es de exterior no importa el campo de luz</p>
+
+<select class="lugar">
+<option class="pocaLuz">Poca</option>
+<option class="mediaLuz">Bastante</option>
+<option class="muchaLuz">Mucha</option>
+
+</select>
+
+
+<button class="btn1">Enviar</button>
+
+<div class="imagen-planta hidden">
+    <img src="" alt="Planta recomendada">
+</div>
+<p><output class="output1"></output></p>
+
+
+<p>Elegí en tamaño de la maceta en la que vas a transplantar tu planta</p>
+<select class="maceta">
+<option class="chica">Número 20 o menos</option>
+<option class="mediana">Entre 20 y 30</option>
+<option class="grande">Más de 30</option>
+</select>
+
+<button class="btn2">Enviar</button>
+
+<p><output class="output2"></output></p>
+
+<p id="parrafo1">***Elegí el lugar donde querés poner tu planta así te recomendamos***</p>
+
+</div>
+</main>
+    </body>
+</html>
