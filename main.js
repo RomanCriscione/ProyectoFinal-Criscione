@@ -81,7 +81,7 @@ btn1.addEventListener("click", () => {
       salida1.textContent = ("Para el lugar de la casa que elegiste te recomendamos " + rosal.nombre);
     } 
     const imagenesURL = 'imagenes.json';
-    fetch('/imagenes.json')
+    fetch('imagenes.json')
     .then(response => response.json())
     .then(data => {
       const imagenPlanta = data[plantaRecomendada.toLowerCase()]; // Asegúrate de manejar el nombre en minúsculas
