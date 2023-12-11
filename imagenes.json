@@ -1,14 +1,14 @@
 {
-"spatiphillum": "./img/spatiphillum.jpg",
-"pattaya": "./img/pattaya.jpg",
-"sansiviera": "./img/sansiviera.jpg",
-"bambu": "./img/bambu.jpg",
-"palmito": "./img/palmito.jpg",
-"mostera": "./img/mostera.jpg",
-"peperomia":"./img/peperomia.jpg",
-"calathea":"./img/calathea.jpg",
-"croton": "./img/croton.jpg",
-"aljaba": "./img/aljaba.jpg",
-"pino": "./img/pino.jpg",
-"rosal": "./img/rosal.jpg"
+"spatiphillum": "/img/spatiphillum.jpg",
+"pattaya": "/img/pattaya.jpg",
+"sansiviera": "/img/sansiviera.jpg",
+"bambu": "/img/bambu.jpg",
+"palmito": "/img/palmito.jpg",
+"mostera": "/img/mostera.jpg",
+"peperomia":"/img/peperomia.jpg",
+"calathea":"/img/calathea.jpg",
+"croton": "/img/croton.jpg",
+"aljaba": "/img/aljaba.jpg",
+"pino": "/img/pino.jpg",
+"rosal": "/img/rosal.jpg"
 }
